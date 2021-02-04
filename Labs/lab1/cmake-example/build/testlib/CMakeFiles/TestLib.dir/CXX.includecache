@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/cmake-example/testlib/bar.cc
+iostream
+-
+
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/cmake-example/testlib/foo.cc
+iostream
+-
+

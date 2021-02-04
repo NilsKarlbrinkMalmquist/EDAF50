@@ -1,0 +1,42 @@
+1. What is the difference between a declaration and a definition
+During declaration memory is not allocated, declaration simply gives details of the 
+properties of a variable, function or class. Defining something means providing all
+the necessary information to create e.g a functio. 
+As en example defining a function means providing a fucntion body whereas declaring a
+function means simply stating the function name, return type and parameters.
+
+
+2. How does an include guard prevent multiple definitions
+Inlcude guards check weather the upcoming statement have already been defined. If it has been defined
+it will skip the code from "ifndef" to "endif" so that the statement will not be defined again. 
+
+
+3. How can you tell if an error comes from the compiler or the linker? Does a linker error
+mean that you have an error in your source code? How do you (typically) fix a linker error?
+A linking errror means that the compilation of the source has no errors, but that one or more function(s)
+and or libraries that are needed cannot be found. If an error comes from the linked the compiler will
+state "undefinded reference...". You fix the linking error by compiling all the .cc files that are
+depend on each other/uses each others functions etc. All the compiled files also needs to be linked
+together in the command prompt. Compiling AND linking can be done together as one command.
+
+
+4. Do you have to make any changes to MakefileWithDeps to build your hello world program
+Yes! Add "hello" on the right hand side of "PROGS =" and "hello: hello.o"
+
+5. In encode and decode, the type unsigned char is used. Would your code work the same
+way if that type is changed to char or signed char?
+In the ASCII table the decimal values of chars ranges from 0-127 and since a signed char can take values from -128 to 127 
+that means that the encryption would not be able to work the same way as it does on an unsigned char. To make it work
+with a signed char we would instead have to subtract a decimal value during encryption and then add the deciman value again 
+during decryption. At the moment, with unsigned char, we add a decimal value during encryption and subtract with the 
+same decimal value for dectryption. 
+
+
+6. In the coding problem, reading the file with char ch; while (infile >> ch) ... doesn’t
+work. Why?
+Since >> skips whitespace.
+
+7. If your program crashes, how can you use the debugger to get a stack trace similar to that
+of Exception.printStackTrace() in Java?
+Use the backtrace function in gdb.
+

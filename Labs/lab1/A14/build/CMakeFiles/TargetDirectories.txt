@@ -1,0 +1,6 @@
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/build/CMakeFiles/ltest.dir
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/build/liblab1/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/build/liblab1/CMakeFiles/edit_cache.dir
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/build/liblab1/CMakeFiles/TestLib.dir

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../liblab1/coding.h
+
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/liblab1/coding.cc
+coding.h
+-
+
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/liblab1/list.cc
+iostream
+-
+list.h
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/liblab1/list.h
+
+/mnt/c/Users/morri/Google Drive/LTH År 5/C++ Programmering/EDAF50/Labs/lab1/A14/liblab1/list.h
+

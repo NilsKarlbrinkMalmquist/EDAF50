@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SimpleMain.dir/main.cc.o  -o SimpleMain  testlib/libTestLib.a 

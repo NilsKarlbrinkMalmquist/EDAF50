@@ -9,7 +9,7 @@ using std::endl;
 using std::string;
 using std::vector;
 
-void getTrigrams(std::vector<string> &trigrams, const string &word){
+void getTrigrams(vector<string> &trigrams, const string &word){
 int nbrTrigrams = word.length()-2;
   for(int i = 0; i < nbrTrigrams; i++){
     trigrams.push_back(word.substr(i, 3));
@@ -18,11 +18,13 @@ int nbrTrigrams = word.length()-2;
 }
 
 int main(){
-  std::ifstream readFile("words");
+  std::ifstream readFile;
   std::ofstream writeFile;
 
+  readFile.open("dicTest.txt");
   writeFile.open("words.txt");
   string word;
+
   while(std::getline(readFile, word)){
     std::transform(word.begin(), word.end(), word.begin(),[](unsigned char c){ return std::tolower(c); });
 
@@ -33,15 +35,10 @@ int main(){
     for (const auto& w : trigrams) {
       writeFile << w <<" ";
     }
-    writeFile <<endl;
+    writeFile <<"\n";
   }
 
   readFile.close();
   writeFile.close();
-
   return 0;
-
-
-
-
 }

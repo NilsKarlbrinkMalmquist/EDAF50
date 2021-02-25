@@ -47,7 +47,7 @@ bool HNS::remove(const HostName& name){
  */
 IPAddress HNS::lookup(const HostName& name) const{
   auto i = std::hash<HostName>()(name) % size;
-  auto it = std::find_if(addresses[i].begin(), addresses[i].end(), [name] (const pair<HostName, IPAddress>& pairs){
+  auto it = std::find_if(addresses[i].begin(), addresses[i].end(), [&name] (const pair<HostName, IPAddress>& pairs){
     return pairs.first == name;
   });
   return it != addresses[i].end() ? it->second : NON_EXISTING_ADDRESS;

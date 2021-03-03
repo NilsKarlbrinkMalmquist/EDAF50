@@ -4,6 +4,7 @@
 using std::cout;
 using std::endl;
 
+asdgf
 int main() {
 	List list;
 	cout << std::boolalpha;

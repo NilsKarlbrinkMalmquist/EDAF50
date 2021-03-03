@@ -1,0 +1,1 @@
+countobj.o: countobj.cc

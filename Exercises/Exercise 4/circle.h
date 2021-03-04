@@ -7,7 +7,7 @@
 
 class Circle : public Shape {
 public:
-	void print() const {
+	void print() const override {
 		std::cout << "I'm a Circle" << std::endl;
 	}
 };

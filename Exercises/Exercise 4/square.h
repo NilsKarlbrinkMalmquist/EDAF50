@@ -7,7 +7,7 @@
 
 class Square : public Shape {
 public:
-	void print() const {
+	void print() const override {
 		std::cout << "I'm a Square" << std::endl;
 	}
 };

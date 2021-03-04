@@ -53,7 +53,7 @@ void example()
 
     foo(cf);
     // uncomment the below line and make sure you understand the error message
-    // bar(cf);
+    //bar(cf); Anntingen lägg till const i på parametern i bar eller ta bort referens.
 
     qux(ncf);
     qux(cf);

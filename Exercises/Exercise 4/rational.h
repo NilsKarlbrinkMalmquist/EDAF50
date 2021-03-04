@@ -15,7 +15,8 @@ public:
     Rational(const int& num);
     Rational(const int& num, const int& denom);
     Rational(const Rational& other);
-    //Rational& operator=(const Rational&);
+    Rational& operator=(const Rational&);
+    Rational& operator=(const int& i);
     Rational& operator+=(const Rational& other);
     Rational operator+(const Rational& other) const;
 };

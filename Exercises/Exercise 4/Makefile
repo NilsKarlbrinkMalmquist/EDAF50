@@ -20,14 +20,15 @@ LDFLAGS =   -g
 #LDFLAGS +=  -stdlib=libc++
 
 # Targets
-PROGS = rationaltest # shapetest shapevectortest const 
+PROGS = rationaltest shapetest shapevectortest overload 
 
 all: $(PROGS)
 
 # Targets rely on implicit rules for compiling and linking
-#shapetest: shapetest.o
-#shapevectortest: shapevectortest.o
+shapetest: shapetest.o
+shapevectortest: shapevectortest.o
 rationaltest: rationaltest.o rational.o
+overload: overload.o
 
 # Phony targets
 .PHONY: all clean distclean

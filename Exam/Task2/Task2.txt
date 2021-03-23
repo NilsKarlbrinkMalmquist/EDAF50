@@ -1,0 +1,10 @@
+Nils Karlbrink Malmquist, 19971017-2959, ni4838ma-s
+
+I've tried to create all the necessary overloads to make the test class work, however I've not been able
+to successfully create the overloads for operator+= and operator+. Because they don't work the test
+classes does not compile, but I think that the rest of the class should work. Everything is at the 
+moment implented in the header file, my thought was to move av definitions to a cc file but I did
+not have the time to do that.
+
+The BigInteger class has a private vector and the thought is that at each place in the vector one
+digit is stored. 

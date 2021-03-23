@@ -12,7 +12,7 @@ bool Bitset::operator[](size_t pos) const {
 	return (bits & (1L << pos)) != 0;
 }
 
-BitReference Bitset::operator[](size_t pos) {
+BitReference Bitset::(size_t pos) {
 	return BitReference(&bits, pos);
 }
 

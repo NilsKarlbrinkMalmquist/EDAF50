@@ -1,0 +1,6 @@
+Nils Karlbrink Malmquist, 19971017-2959, ni4838ma-s
+
+I've only managed to complete the a assignment.
+
+The current and the second current fibonachi digits are stored as integers and therfore they are always accesible. All operators 
+should be implemented. Almast all test works, a few don't and I could not manage to find out why.
